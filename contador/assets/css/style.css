@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0px;
+    background-color: #e07f7f;
+    font-family: 'Oswald', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* MAIN */
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 80vh;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 20pt;
+}
+
+/* FOOTER*/
+
+footer {
+    height: 20vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a3a3a;
+}
+
+h2 {
+    color: #e07f7f;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    display: flex;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: .5rem 2rem;
+    border: 1px solid #ffffff;
+    min-width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
