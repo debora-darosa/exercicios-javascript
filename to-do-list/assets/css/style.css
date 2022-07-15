@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #fbf6fa;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER*/
+
+header {
+    height: 20vh;
+    background-color: rgb(80, 78, 87);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    text-transform: uppercase;
+    align-items: center;
+    color: #eee9f0;
+}
+
+/* MAIN */
+
+main{
+    height: 60vh;
+    background-color: rgb(136, 112, 142);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-transform: uppercase;
+    align-items: center;
+    color: #f3eaf6;
+}
+
+form {
+    flex-direction: row;
+}
+
+input[type=text] {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=button] {
+    border-radius: 5px;
+    height: 30px;
+    float: flex;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    margin: 4px;
+    border-radius: 40%;
+    max-width: 27px;
+    max-height: 20px;
+    position: relative;
+    align-items: center;
+}
+
+button:hover, input[type=button]:hover {
+    background: rgb(149, 140, 140);
+    transition: .5s ease-in-out;
+}
+
+ul {
+    height: fit-content;
+    overflow-y: flex;
+    align-items: center;
+}
+
+li {
+    padding: 2px;
+    margin: 3px;
+}
+
+.row {
+    flex-direction: column;
+    justify-content: right;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#my-list {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+    height: 20vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 78, 87);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ffffff;  
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 1rem 2rem;
+    border: 1px solid #ffffff;
+    min-width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s cubic-bezier(0.60, 0.45, 0.664, 0.98);
+}
+
+.social-media a:hover {
+    color: #3c1547;
+    background-color: #ffffff;
+}
