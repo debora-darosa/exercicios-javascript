@@ -2,7 +2,7 @@
 
 body {
     display: flex;
-    padding: 0;
+    padding: 0px;
     margin: 0;
     font-family: 'Oswald', sans-serif;
 }
@@ -23,6 +23,38 @@ h1{
     color: black;
 }
 
-.variant {
-
+main {
+    height: 80vh;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+
+.animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 30vh;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  footer {
+    height: 20vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a3a3a;
+}
+  /* Estilos adicionais, se necessário */
+  /* .animation-container {
+    background-color: #f0f0f0; 
+    border: 1px solid #ddd;
+    padding: 20px;
+  } */
+  
