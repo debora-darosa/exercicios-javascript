@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #fdfcfd;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER*/
+
+header {
+    height: 10vh;
+    background-color: rgb(35, 126, 114);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    text-transform: uppercase;
+    align-items: center;
+    color: #fbfcfd;
+}
+
+/* MAIN */
+
+main{
+    height: 90vh;
+    background-color: rgb(136, 112, 142);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ffffff;  
+}
+
+.presentation {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(-45deg, rgb(16, 60, 71), #2c538d, rgb(35, 126, 114), rgb(141, 235, 238));
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: backgroundTransition 8s ease-in-out infinite;
+}
+
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position:  50% 90%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+}
+
+input[type=text] {
+    height: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+input[type=button] {
+    border-radius: 5px;
+    height: 50px;
+    float: flex;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    margin: 8px;
+    border-radius: 70%;
+    max-width: 82px;
+    max-height: 50px;
+    position: relative;
+    align-items: center;
+}
+
+p {
+    text-transform: uppercase;
+    align-items: right;
+    color: #f3eaf6; 
+}
