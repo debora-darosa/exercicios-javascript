@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Agbalumo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d696d6;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+header{
+    height: 15vh;
+    background-color: blueviolet;
+    font-family: 'Agbalumo', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-shadow: 4px 4px 4px #aaa
+}
+
+h1 {
+    text-transform: uppercase;
+    align-items: center;
+    color: bisque;
+    font-size: 36px;
+}
+
+main{
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+}
+
+h2{
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 36px;
+    color: azure;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+input[type=text] {
+    height: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
