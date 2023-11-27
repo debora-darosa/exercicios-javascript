@@ -1,0 +1,39 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+  
+.bento {
+    min-block-size: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1ch;
+    padding: 1ch;
+}
+  
+.bento__container {
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr 2fr 2fr 3fr;
+    gap: 1ch;
+    min-height: inherit;
+    flex: 2 0 320px;
+}
+  
+.bento__container[variant-1] {
+    --bg: #837AED;
+    grid-template-columns: 3fr 1fr 2fr;
+}
+  
+.bento__item {
+    height: 100%; width: 100%;
+    grid-column: var(--columns, span 1);
+    grid-row: var(--rows, span 1);
+    background-color: var(--bg);
+    border-radius: 1rem;
+}
+
+h1{
+    text-transform: uppercase;
+    align-items: center;
+    color: #fbfcfd;
+}
