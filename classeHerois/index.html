@@ -9,17 +9,34 @@
 </head>
 
 <body>
+  <header></header>
     <main class="bento">
         <div class="bento__container" variant-1>
-          <div class="bento__item" style="--rows: span 2; --columns: 1 / -1;">
-            <h1>Escolha a sua classe:</h1>
-        </div>
-          <div class="bento__item" style="--rows: span 2;">
-            <input type="text" id="nameHero" placeholder="Digite o nome do herói">
-            <button onclick="getNameHero()">Adicionar</button>
-        </div>
-          <div class="bento__item" style="--rows: span 2; --columns: span 2;"></div>
-          <div class="bento__item"></div>
+            <div class="bento__item" style="--rows: span 2; --columns: 1 / -1;">
+                <h1>Escolha a sua classe:</h1>
+            </div>
+            <div class="bento__item" style="--rows: span 2;">
+                <h2>Qual o nome e idade do aventureiro(a)?</h2>
+                <input type="text" id="nameHero" placeholder="Digite o nome do herói">
+                <button onclick="getNameHero()">Adicionar</button>
+                <input type="text" id="ageHero" placeholder="Digite a idade do herói">
+                <button onclick="getNameHero()">Adicionar</button>
+            </div>
+            <div class="bento__item" style="--rows: span 2; --columns: span 2;">
+              <h3>Selecione a classe:</h3>
+              <form>
+                <select id="classe" name="parameter" class="style_form">
+                    <option value="mago">Mago</option>
+                    <option value="guerreiro">Guerreiro</option>
+                    <option value="monge">Monge</option>
+                    <option value="ninja">Ninja</option>
+                </select>
+                <input type="submit" value="Atacar"/>
+            </form>
+            </div>
+            <div class="bento__item" style="--columns: 1 / -1;">
+                <p class="describe__personagem">Descrição do personagem:</p>
+            </div>
         </div>
     </main>
 

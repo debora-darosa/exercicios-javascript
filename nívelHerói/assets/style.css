@@ -102,3 +102,9 @@ p {
     align-items: right;
     color: #f3eaf6; 
 }
+
+label{
+    text-transform: uppercase;
+    align-items: center;
+    color: #fbfcfd;
+}
